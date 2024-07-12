@@ -37,7 +37,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <header className="bg-[#101010] absolute top-0 left-0 w-full flex items-center z-10">
       <div className="container max-w-7xl mx-auto">
         <div className="flex items-center justify-between relative">
           <div className="px-4 flex ">
@@ -76,7 +76,7 @@ const Header = () => {
               </nav>
             </div>
           </div>
-          <div className="flex items-center px-4">
+          <div className="flex items-center">
             <nav id="Logsig" className="py-5 shadow-lg rounded-lg top-full">
               <ul className="flex justify-between">
                 <li className="group">
