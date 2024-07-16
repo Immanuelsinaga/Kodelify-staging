@@ -62,14 +62,14 @@ const Header = () => {
                 <ul className="block lg:flex">
                   {Navbar.map((item, index) => (
                     <li className="group flex items-center">
-                      <Link
-                        to={item.link}
+                      <a
+                        href={item.link}
                         className="flex items-center font-semibold text-slate-500 py-2 mx-5 group-hover:text-slate-200 transition">
                         <div className="fill-slate-500 mr-2 group-hover:fill-slate-200">
                           {item.icon}
                         </div>
                         {item.page}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>

@@ -12,7 +12,7 @@ const NewArticle = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
             {newArticle.map((item, index) => (
-              <a href={item.href} className="block rounded-2xl px-6 py-8 bg-white shadow-md hover:shadow-lg active:scale-95 transition-all active:shadow-sm">
+              <a href={item.link} className="block rounded-2xl px-6 py-8 bg-white shadow-md hover:shadow-lg active:scale-95 transition-all active:shadow-sm">
                 <img src={item.thumbnail} alt="Thumbnail" />
                 <h3 className="text-slate-900 text-base font-bold tracking-tight mt-4">
                   {item.title}

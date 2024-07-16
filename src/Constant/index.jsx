@@ -40,17 +40,20 @@ export const whatLearn = [
   {
     icon: <IoCodeSlash />,
     title: "Basic Programming C++",
-    description: "mulai dari tutorial dasar-dasar pemrograman menggunakan C++"
+    description: "mulai dari tutorial dasar-dasar pemrograman menggunakan C++",
+    link: '',
   },
   {
     icon: <TbWorldCode />,
     title: "Pemprograman kompetitif dasar",
-    description: "kamu akan belajar tentang materi-materi yang ada di competitive programming"
+    description: "kamu akan belajar tentang materi-materi yang ada di competitive programming",
+    link: '',
   },
   {
     icon: <RiInboxUnarchiveFill />,
     title: "Tutorial Lainnya",
     description: "Baca tutorial dalam kategori lainnya seperti Mobile programming, Web programming, IoT, Blockhain, dan masih banyak lagi.",
+    link: '',
   }
 ];
 
@@ -59,13 +62,13 @@ export const newArticle = [
     thumbnail: cpp,
     title:'Belajar C++ #13: Mengenal Tipe Data Union',
     shortDesc: 'Pada tutorial ini, kita akan belajar tentang tipe data union di C++. Mengapa kita butuh Union dan apa bedanya dengan Struct? Simak selengkapnya...',
-    href:'',
+    link:'',
   },
   {
     thumbnail: struct,
     title: 'Belajar C++ #12: Mengenal Tipe Data Struct',
     shortDesc: 'Pada tutorial ini, kita akan berkenalan dengan tipe data struct dan gimana cara menggunakan Struct di C++...',
-    href: '',
+    link: '',
   },
   
 ];
