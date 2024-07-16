@@ -80,18 +80,18 @@ const Header = () => {
             <nav id="Logsig" className="py-5 shadow-lg rounded-lg top-full">
               <ul className="flex justify-between">
                 <li className="group">
-                  <Link
-                    to="/login"
+                  <a
+                    href="/login"
                     className="font-bold text-[#da7ef6] py-2 mx-3 hover:text-[#d9cfff] transition">
                     Masuk
-                  </Link>
+                  </a>
                 </li>
                 <li className="group">
-                  <Link
-                    to="/signup"
+                  <a
+                    href="/signup"
                     className="font-semibold text-slate-200 py-2 mx-3 bg-secondary p-6 rounded-full group-hover:bg-[#a088ff] group-hover:text-secondary transition">
                     Daftar
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </nav>

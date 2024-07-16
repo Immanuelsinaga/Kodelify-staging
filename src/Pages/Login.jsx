@@ -17,12 +17,12 @@ const Login = () => {
           <div className="w-full text-center">
             <h1 className="text-slate-100 text-3xl font-bold text-center mb-9">Log in to Kodelify</h1>
             <div className="relative">
-              <div className="mb-2">
+              {/* <div className="mb-2">
                 <button type="button" className="text-white bg-gray-800 hover:bg-gray-700 border border-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-600 font-medium rounded-lg text-md px-16 py-2.5 text-center inline-flex items-center mb-2">
                   <FaGithub className="mr-3" />
                   Login with Github
                 </button>
-              </div>
+              </div> */}
               <div>
                 <button type="button" className="text-white bg-[#4285F4] hover:bg-[#4285F4]/90 border border-gray-700 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-md px-16 py-2.5 text-center inline-flex items-center">
                   <FaGoogle  className="mr-3" />
